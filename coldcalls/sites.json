@@ -1,0 +1,902 @@
+[
+  {
+    "url": "https://www.liuxue86.com/",
+    "phone_path": {
+      "value": "//li/form[@class=\"guestbook-fixed\"]/input"
+    },
+    "submit_path": {
+      "value": "//li/form[@class=\"guestbook-fixed\"]/button"
+    },
+    "sleep_time": 2
+  },
+  {
+    "url": "http://www.beimu.com/school/",
+    "preset": {
+      "type": "click",
+      "value": "//li[@class=\"clearfix\"]/div/a[2]"
+    },
+    "username_path": {
+      "mode": "id",
+      "value": "LM10ContactID"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "LM10PhoneID"
+    },
+    "postset": {
+      "type": "script",
+      "value": "FunLM10GetPrice()"
+    }
+  },
+  {
+    "url": "http://www.bole.com/registerPage",
+    "username_path": {
+      "mode": "id",
+      "value": "yonghu"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "shouji"
+    },
+    "submit_path": {
+      "value": "//a[@id=\"sub\"]"
+    }
+  },
+  {
+    "url": "http://www.kgc.cn/zhuanti/cpjh_pc.shtml",
+    "username_path": {
+      "mode": "id",
+      "value": "userName"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "tel"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "btn-ty"
+    }
+  },
+  {
+    "url": "http://www.gemstonecn.com/consociation.php",
+    "iframe": "LR_miniframe",
+    "preset": {
+      "type": "script",
+      "value": "showtel1()"
+    },
+    "phone_path": {
+      "value": "//div[@class=\"telephone\"]/input[1]"
+    },
+    "submit_path": {
+      "value": "//div[@class=\"telephone\"]/input[2]"
+    },
+    "sleep_time": 3
+  },
+  {
+    "url": "https://qy.thea.cn/",
+    "username_path": {
+      "mode": "name",
+      "value": "contact"
+    },
+    "phone_path": {
+      "mode": "name",
+      "value": "mobile"
+    },
+    "message_path": {
+      "mode": "name",
+      "value": "content"
+    },
+    "submit_path": {
+      "value": "//div[@class=\"qpform\"]//input[last()]"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://www.zhangmen.com/lp/sem",
+    "username_path": {
+      "mode": "id",
+      "value": "s-name"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "stu_mobile1"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "pcheaderbtn2"
+    }
+  },
+  {
+    "url": "http://zs.jiameng.com/goJmPriceBoard2.html",
+    "username_path": {
+      "mode": "id",
+      "value": "txtName"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "txtTel"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "imgBtnUp"
+    }
+  },
+  {
+    "url": "http://fd1.qinxue100.com/index.html",
+    "username_path": {
+      "mode": "id",
+      "value": "name"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "tel"
+    },
+    "submit_path": {
+      "mode": "name",
+      "value": "submit"
+    }
+  },
+  {
+    "url": "https://www.ef.com.cn/englishfirst/kids/",
+    "phone_path": {
+      "mode": "name",
+      "value": "mobile"
+    },
+    "submit_path": {
+      "value": "//form[contains(@class, \"ef-form\")]/div[2]/div/div[2]/a"
+    }
+  },
+  {
+    "url": "https://www.ququabc.com/offlinep.htm",
+    "username_path": {
+      "mode": "name",
+      "value": "username"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "mobile"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "submit"
+    }
+  },
+  {
+    "url": "http://learning.learningedu.com.cn/",
+    "phone_path": {
+      "mode": "id",
+      "value": "Tel"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "pctest01"
+    }
+  },
+  {
+    "url": "http://www.cctvqcxq.com/",
+    "username_path": {
+      "mode": "id",
+      "value": "name"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "mobile"
+    },
+    "message_path": {
+      "mode": "id",
+      "value": "area",
+      "msg": "上海"
+    },
+    "submit_path": {
+      "value": "//span[@class=\"ant-form-item-children\"]/button"
+    }
+  },
+  {
+    "url": "http://www.onlychild.cn/",
+    "phone_path": {
+      "mode": "id",
+      "value": "mobile"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "btnSubmit"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://www.nicekid.com/register/nicekid-biteabc",
+    "phone_path": {
+      "mode": "name",
+      "value": "iphone"
+    },
+    "submit_path": {
+      "value": "//a[contains(@class, \"get-code\")]"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "http://www.51talk.com/landing/bdpz1_087737.html",
+    "preset": {
+      "mode": "class_name",
+      "value": "btn-show"
+    },
+    "phone_path": {
+      "mode": "name",
+      "value": "mobile"
+    },
+    "submit_path": {
+      "value": "//button[contains(@class, \"sendBtn\")]"
+    }
+  },
+  {
+    "url": "http://www.unclesamedu.com/index.php",
+    "phone_path": {
+      "mode": "id",
+      "value": "morder_tel"
+    },
+    "username_path": {
+      "mode": "id",
+      "value": "morder_name"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "btn"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://zt.xueersi.com/zaixian/pc-zhu-tiyanke/index.html",
+    "phone_path": {
+      "mode": "id",
+      "value": "phone"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "phone-code-bt"
+    }
+  },
+  {
+    "url": "http://www.hellotom-edu.com/470",
+    "phone_path": {
+      "mode": "id",
+      "value": "iphone"
+    },
+    "username_path": {
+      "mode": "id",
+      "value": "name"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "jms_tj"
+    }
+  },
+  {
+    "url": "https://www.qinxue365.com/business/388.html",
+    "phone_path": {
+      "mode": "name",
+      "value": "#Tel"
+    },
+    "username_path": {
+      "mode": "name",
+      "value": "#Name"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "sub"
+    }
+  },
+  {
+    "url": "http://www.it61.cn/coding-class/",
+    "phone_path": {
+      "value": "//div[@class=\"phNB\"]/input"
+    },
+    "submit_path": {
+      "value": "//div[@class=\"tijiao\"]"
+    }
+  },
+  {
+    "url": "https://all-dream.com/",
+    "phone_path": {
+      "value": "//input[@class=\"ant-input\"][2]"
+    },
+    "username_path": {
+      "value": "//input[@class=\"ant-input\"][1]"
+    },
+    "submit_path": {
+      "value": "//nav[@class=\"bottom-fixed-bar\"]/div/button"
+    }
+  },
+  {
+    "url": "http://www.ubxedu.com/course/",
+    "iframe": "LR_miniframe",
+    "preset": {
+      "type": "script",
+      "value": "showtel1()"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "tel1"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "telbtn"
+    },
+    "sleep_time": 3
+  },
+  {
+    "url": "https://www.magaoedu.com/",
+    "phone_path": {
+      "mode": "id",
+      "value": "phone"
+    },
+    "username_path": {
+      "mode": "id",
+      "value": "name"
+    },
+    "message_path": {
+      "mode": "id",
+      "value": "age",
+      "msg": "上海"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "save"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://sso.kuaidi100.com/sso/reg.jsp",
+    "phone_path": {
+      "mode": "id",
+      "value": "name"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "send"
+    }
+  },
+  {
+    "url": "http://www9.53kf.com/webCompany.php?arg=10135712&style=4",
+    "username_path": {
+      "mode": "id",
+      "value": "ly_name"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "ly_mobile"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "submit_lword"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://adm.youyucode.com/appointment.html?source=n1",
+    "phone_path": {
+      "value": "//*[@id=\"main-container\"]/div/form/div[1]/div[5]/div/div/input"
+    },
+    "submit_path": {
+      "value": "//*[@id=\"main-container\"]/div/form/div[1]/div[5]/div/div/div/button"
+    }
+  },
+  {
+    "url": "http://xa.ui.tedu.cn/baiduuipc/zh",
+    "phone_path": {
+      "mode": "class_name",
+      "value": "lxb-cb-input"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "lxb-cb-input-btn"
+    }
+  },
+  {
+    "url": "http://xw7c8v4rx7ajxxvj.mikecrm.com/kiMGSiQ",
+    "username_path": {
+      "value": "//*[@id=\"201741259\"]/div[2]/div/div[1]/input"
+    },
+    "message_path": {
+      "value": "//*[@id=\"201742454\"]/div[2]/div/div/input",
+      "msg": 10
+    },
+    "phone_path": {
+      "value": "//*[@id=\"201741261\"]/div[2]/div/div/div/input"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "fb_submitBtn"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://passport.58.com/reg/",
+    "phone_path": {
+      "mode": "id",
+      "value": "mask_body_item_phonenum"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "mask_body_item_getcode"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://sso.kuaidi100.com/sso/authorize.do",
+    "preset": {
+      "mode": "class_name",
+      "value": "bd"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "mobile"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "send"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://class.hujiang.com/",
+    "phone_path": {
+      "mode": "name",
+      "value": "tel"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "btn-get-code"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "http://v.huatu.com/newUser/reg.php",
+    "phone_path": {
+      "mode": "id",
+      "value": "phoneNumber"
+    },
+    "submit_path": {
+      "value": "//input[contains(@class, \"jq_sendcode\")]"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://www.vipjr.com/",
+    "preset": {
+      "value": "//div[contains(@class, \"handle_register\")]"
+    },
+    "phone_path": {
+      "mode": "name",
+      "value": "nation_phone"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "v-jr-btn"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "http://www.qianlima.com/new/keywordzhuolu_invite.jsp",
+    "phone_path": {
+      "mode": "class_name",
+      "value": "phone"
+    },
+    "submit_path": {
+      "value": "//p[contains(@class, \"yzm\")]"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://hi.codemao.cn/v2",
+    "phone_path": {
+      "mode": "class_name",
+      "value": "index__input___1LXgD"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "index__red_button___2BvRL"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://accounts.douban.com/passport/login?source=book",
+    "phone_path": {
+      "mode": "name",
+      "value": "phone"
+    },
+    "submit_path": {
+      "value": "//div[@class=\"account-form-field-code\"]/a"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://www.xxsy.net/Reg",
+    "phone_path": {
+      "mode": "name",
+      "value": "mobileNumber"
+    },
+    "password_path": {
+      "mode": "name",
+      "value": "userPwd"
+    },
+    "password_confirm_path": {
+      "mode": "name",
+      "value": "confirmUserPwd"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "accounbtn"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "http://reg.timemm.com/user/register",
+    "phone_path": {
+      "mode": "id",
+      "value": "username"
+    },
+    "password_path": {
+      "mode": "id",
+      "value": "pwd"
+    },
+    "submit_path": {
+      "value": "//button[contains(@class, \"get-code\")]"
+    }
+  },
+  {
+    "rate": 3,
+    "url": "https://www.znds.com/member.php?mod=zndscomregister",
+    "preset": {
+      "type": "script",
+      "value": "$('agreebbrule').checked = true;hideMenu('fwin_dialog', 'dialog');"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "tel"
+    },
+    "postset": {
+      "type": "script",
+      "value": "dsendsms()"
+    }
+  },
+  {
+    "url": "https://tj.ikongjian.com/reservation/index",
+    "preset": {
+      "value": "//div[@class=\"fixeRight\"]/a[2]"
+    },
+    "username_path": {
+      "mode": "id",
+      "value": "resUserName"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "resMobile"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "aboutJs_button"
+    }
+  },
+  {
+    "url": "https://www.to8to.com/yezhu/",
+    "username_path": {
+      "mode": "id",
+      "value": "Name"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "Tphone"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "form-btn"
+    }
+  },
+  {
+    "url": "https://www.jia.com/zx/other/semtf/",
+    "preset": {
+      "mode": "id",
+      "value": "zaixianbaojia"
+    },
+    "username_path": {
+      "value": "//div[@class=\"rank_li\"]/input"
+    },
+    "phone_path": {
+      "value": "//div[@class=\"rank_li\"]/input[@name=\"mobile\"]"
+    },
+    "submit_path": {
+      "value": "//a[contains(@class, \"apply_submit\")]"
+    }
+  },
+  {
+    "url": "http://beijing.zhuangxiuyizu.cn/",
+    "username_path": {
+      "mode": "name",
+      "value": "data[contact]"
+    },
+    "phone_path": {
+      "mode": "name",
+      "value": "data[mobile]"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "head_btn"
+    }
+  },
+  {
+    "url": "http://www.sh-juyun.com/",
+    "username_path": {
+      "value": "//input[@class=\"g_itext\"]"
+    },
+    "phone_path": {
+      "value": "//div[contains(@class, \"item_2\")]//input[@class=\"g_itext\"]"
+    },
+    "submit_path": {
+      "value": "//div[@class=\"m\"]"
+    }
+  },
+  {
+    "url": "http://bj.xtuan.com/zhuangxiu/",
+    "username_path": {
+      "mode": "id",
+      "value": "chenghu"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "phone"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "button"
+    }
+  },
+  {
+    "url": "https://shenzhen.dyrs.com.cn/",
+    "username_path": {
+      "mode": "name",
+      "value": "name"
+    },
+    "phone_path": {
+      "mode": "name",
+      "value": "phone"
+    },
+    "message_path": {
+      "mode": "name",
+      "value": "acreage",
+      "msg": "120"
+    },
+    "submit_path": {
+      "value": "//button[@type=\"submit\"]"
+    }
+  },
+  {
+    "url": "https://www.idayu.cn/",
+    "iframe": "iframe_company_mini",
+    "username_path": {
+      "mode": "id",
+      "value": "ly_name"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "ly_mobile"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "submit_lword"
+    }
+  },
+  {
+    "url": "http://baiduloushi.com/plus/view.php?aid=653",
+    "username_path": {
+      "mode": "id",
+      "value": "exampleInputName"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "exampleInputPhone"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "formsubmit"
+    }
+  },
+  {
+    "url": "http://www.sxxxpx.cn/mba/wps/p/002QG/",
+    "phone_path": {
+      "mode": "name",
+      "value": "msg_userphone"
+    },
+    "postset": {
+      "type": "script",
+      "value": "$.msgSubmit('messageForm1')"
+    }
+  },
+  {
+    "url": "http://wap.gbhui.com/captcha_login.html",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "loginName"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "btnSendCode"
+    }
+  },
+  {
+    "url": "https://2car.haval.com.cn/quicklogin",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "phone"
+    },
+    "submit_path": {
+      "value": "//a[contains(@class, \"u-getcode\")]"
+    }
+  },
+  {
+    "url": "https://account.xiaomi.com/pass/serviceLogin",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "username"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "getSMSCode"
+    }
+  },
+  {
+    "url": "https://wse.com.cn/zh/register/",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "mobileNumber"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "send-verification-code-span"
+    }
+  },
+  {
+    "url": "https://user.mihoyo.com/#/register/mobile?cb_route=%2Faccount%2Fhome",
+    "rate": 3,
+    "phone_path": {
+      "mode": "xpath",
+      "value": "//div[@class=\"input-container\"]/input"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "input-inner-btn"
+    }
+  },
+  {
+    "url": "http://www.zgtzmls.com/Home/User/reg.html",
+    "rate": 3,
+    "username_path": {
+      "mode": "id",
+      "value": "username"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "mobile"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "sendSms"
+    }
+  },
+  {
+    "url": "https://www.gsbankmall.com/index.php/Wap/index/userhome.html",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "tel"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "btn"
+    }
+  },
+  {
+    "url": "https://www.story-mark.com/login/code",
+    "rate": 3,
+    "phone_path": {
+      "mode": "name",
+      "value": "userPhone"
+    },
+    "submit_path": {
+      "mode": "id",
+      "value": "loginVcodeBtn"
+    }
+  },
+  {
+    "url": "https://login.51job.com/login.php?isjump=0&loginway=1&lang=c&from_domain=i&url=",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "loginname"
+    },
+    "postset": {
+      "type": "script",
+      "value": "sendPhoneCode()"
+    }
+  },
+  {
+    "url": "http://passport.360eol.com/pc/passwordOrCodeLogin?from=http%3A%2F%2Fnanjing.360loushi.com%2F&appId=AOqn8WGeXHGZN23dF",
+    "rate": 3,
+    "preset": {
+      "type": "click",
+      "mode": "xpath",
+      "value": "//ul[@class=\"loginNav\"]/li[last()]"
+    },
+    "phone_path": {
+      "mode": "id",
+      "value": "phoneOrEmailOne"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "code"
+    }
+  },
+  {
+    "url": "https://account.geekbang.org/infoq/signup?redirect=https%3A%2F%2Fwww.infoq.cn%2Farticle%2FLZE%2aob52bASspjYu4c6Z",
+    "rate": 3,
+    "phone_path": {
+      "mode": "name",
+      "value": "cellphone"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "code-btn"
+    }
+  },
+  {
+    "url": "http://user.tcl.com/proxy/login",
+    "rate": 3,
+    "phone_path": {
+      "mode": "xpath",
+      "value": "//input[contains(@class, \"J-phone\")]"
+    },
+    "submit_path": {
+      "mode": "xpath",
+      "value": "//span[contains(@class, \"J-GetPhoneCode\")]"
+    }
+  },
+  {
+    "url": "https://ims.pinduoduo.com/plus/",
+    "rate": 3,
+    "phone_path": {
+      "mode": "xpath",
+      "value": "//input[contains(@class, \"login-phone\")]"
+    },
+    "submit_path": {
+      "mode": "xpath",
+      "value": "//button[contains(@class, \"send-code-button\")]"
+    }
+  },
+  {
+    "url": "https://www.jianshu.com/users/password/mobile_reset",
+    "rate": 3,
+    "phone_path": {
+      "mode": "id",
+      "value": "mobile_number"
+    },
+    "submit_path": {
+      "mode": "xpath",
+      "value": "//a[contains(@class, \"js-send-code-button\")]"
+    }
+  },
+  {
+    "url": "https://www.51jingying.com/common/login.php?loginas=manager&loginway=1&returnUrl=https%3A%2F%2Fauction.51jingying.com%2F",
+    "rate": 3,
+    "phone_path": {
+      "mode": "xpath",
+      "value": "//input[contains(@class, \"common_login_username_input\")]"
+    },
+    "submit_path": {
+      "mode": "class_name",
+      "value": "common_login_send_phonecode"
+    }
+  }
+]

