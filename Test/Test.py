@@ -13,6 +13,7 @@
  *    Source Code Copy to :  https://github.com/yinzhengmao/note/blob/master/note.py
  ********************************************************************************/
 '''
+
 import json
 import requests as r
 import time
@@ -308,7 +309,7 @@ class SMS_Send_16(PostRequest):
 
 sleep = 5
 number = 1000
-tel = 13738624333
+tel = 18756802586
 '''
 #y ex
 13738624333
@@ -324,8 +325,7 @@ tel = 17855337209
 #吴虎
 tel = 18756802586
 '''
-
-if __name__ == '__main__' :
+def Caller(tel,number):
     sms1 = SMS_Send_1(tel)
     sms2 = SMS_Send_2(tel)
     sms3 = SMS_Send_3(tel)
@@ -344,11 +344,11 @@ if __name__ == '__main__' :
     sms16 = SMS_Send_16(tel)
 
     i = 0
-    while int(number/13) > i:
-    	#可能会有些失败次数，所以除13保守
-        i+= 1
+    while int(number / 13) > i:
+        # 可能会有些失败次数，所以除13保守
+        i += 1
         sms1.run()
-        sms2.run()#30s
+        sms2.run()  # 30s
         sms3.run()
         sms4.run()
         sms5.run()
@@ -363,3 +363,7 @@ if __name__ == '__main__' :
         sms14.run()
         sms15.run()
         sms16.run()
+
+
+if __name__ == '__main__' :
+    Caller(tel, number)
