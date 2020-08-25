@@ -58,6 +58,7 @@ class GetRequest:
 
 class SMS_Send_1(PostRequest_json):
     #60s
+    #60 times a day.
     def __init__(self, phone):
         self.name = "顺丰速运"
         self.phone = phone
@@ -348,6 +349,7 @@ def Caller(tel,number):
     while int(number / 13) > i:
         # 可能会有些失败次数，所以除13保守
         i += 1
+        print('--------------------------------------------',i,'------------------------------')
         sms1.run()
         sms2.run()  # 30s
         sms3.run()
